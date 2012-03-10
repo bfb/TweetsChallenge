@@ -26,7 +26,6 @@ counter = 0
 # Initializing the tweets capture
 TweetStream::Client.new.sample do |status, client|
   collection_tweets.insert({:tweet => "#{status.text}"})
-  puts "#{status.text}"
   counter += 1
   client.stop if counter >= limit
 end
