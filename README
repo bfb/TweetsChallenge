@@ -1,4 +1,4 @@
-run.rb - Script that capture tweets via Streaming API and saves them in a MongoDB database.
+run.rb - Script that captures tweets via Streaming API and saves them in a MongoDB database.
 You can run it with a parameter that is the limit of tweets, if it not informed the script will capture 20 tweets.
 
 The Rails app will list all tweets captured.
