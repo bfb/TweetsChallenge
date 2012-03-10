@@ -1,0 +1,18 @@
+<h2>Listing the tweets</h2>
+<table width="100%" cellspacing="0">
+	<thead>
+  <tr>
+		<th>Tweet</th>
+    <th></th>
+  </tr>
+	</thead>
+	
+	<tbody>
+	<% @tweets.each do |tweet| %>
+		<tr>
+			<td><%= tweet.tweet %></td>
+			<td width="20"><%= link_to 'Delete', tweet, :confirm => 'Are you sure?', :method => :delete, :class => 'destroy', 'title' => 'Delete' %></td>
+		</tr>
+	<% end %>
+	</tbody>
+</table>

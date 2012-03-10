@@ -1,0 +1,78 @@
+body {
+	background: #CCC;
+	font-family:  'Bitter', Arial, Helvetica, serif;
+	font-size: 14px;
+	text-align: center;
+	color: #333;
+}
+#page {
+	margin: 0 auto;
+	width: 740px;
+	padding-bottom:20px;
+}
+#content {
+	text-align: left;
+	border: 1px Solid #CCC;
+	background: #FFF;
+	padding: 20px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 6px;
+  	-moz-border-radius: 6px;
+  	-ms-border-radius: 6px;
+  	-o-border-radius: 6px;
+  	border-radius: 6px;
+  	-webkit-box-shadow: 0 0 0 6px #AAA;
+  	-moz-box-shadow: 0 0 0 6px #AAA;
+  	-ms-box-shadow: 0 0 0 6px #AAA;
+  	-o-box-shadow: 0 0 0 6px #AAA;
+  	box-shadow: 0 0 6px #AAA;
+}
+
+a, a:link, a:visited, a:active {
+	color: #009999;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #FFF;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0;
+	padding: 20px;
+	color: #333;
+	text-shadow: 1px 1px 1px #FFF;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px;
+	color: #009999;
+}
+.list {
+	padding: 10px;
+	border-bottom: 1px Solid #CCC;
+}
+.destroy {
+	width: 20px; height: 20px;
+	overflow: hidden;
+	background: url(../images/destroy.png) top left no-repeat;
+	display: block;
+	text-indent: 10000px;
+}
+.destroy:hover {
+	background-position: bottom left;
+}
+table th {
+	border-bottom: 1px solid #CCC;
+	padding: 10px;
+}
+table td {
+	padding: 5px;
+	background: #FFF;
+	border-bottom: 1px solid #CCC;
+}
